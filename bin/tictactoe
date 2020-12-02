@@ -1,3 +1,6 @@
 #!/usr/bin/env ruby
 require 'pry'
-require_relative '../lib/tic_tac_toe.rb'
+require_relative '../lib/tic_tac_toe.rb'  # brings all code from tic_tac_toe.rb into this file
+
+game_1 = TicTacToe.new  # creates new instance of TicTacToe
+game_1.play # launches game with play instance mehtod
